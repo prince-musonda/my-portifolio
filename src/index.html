@@ -1,0 +1,461 @@
+<!--
+  Hello!
+  -
+  Simplefolio is a clean and responsive portfolio template for Developers!
+  Created by Jacobo Martinez.
+  -
+  Github Repo: https://github.com/cobidev/simplefolio/
+  Readme: https://github.com/cobidev/simplefolio/README.md
+  -
+  For business & inquires, contact me -> jacobojavier98@gmail.com
+-->
+<!DOCTYPE html>
+<html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+
+    <!-- Todo: put here your site title -->
+    <title>[Prince Musonda] | Developer</title>
+    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[username], [name], skill" />
+    <!-- Todo: improve your SEO by adding a small description of you -->
+    <meta name="description" content="[Your name here] | Developer" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.scss" />
+    <script
+      defer
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
+
+    <!-- Todo: remove the below script once you finish your portfolio -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Hi, my name is <span class="text-color-main">Prince Musonda</span>
+          <br />
+          I'm a Full-stack software developer, Mobile app Developer and AI enthusiast.
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >Know more</a
+          >
+        </p>
+      </div>
+    </section>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="assets/profile.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text" style="font-size: 1.5rem">
+                Hi, my name is Prince Musonda and I am a self taught software developer. As a tech enthusiast, I've
+                always been fascinated with finding smart and practical ways I can
+                contribute to the world, even in a small way to help make our world a
+                better place through the use of technology.
+              </p>
+              <p class="about-wrapper__info-text" style="font-size: 1.5rem">
+                I love building computer programs, but it can get boring sometimes especially
+                when building something that doesn't even try to solve a problem
+                at the end of the day. Trying to solve tech problems is probably one of most 
+                frustrating things that I tend to do, but I love every bit of it. 
+                And this is why am a software developer. I get a sense of
+                satisfaction and purpose whenever I build something that solves a problem of
+                interest. I enjoy building programs that require me
+                to learn something new just to overcome some of the hurdles of software development.
+              </p>
+              <p class="about-wrapper__info-text" style="font-size: 1.5rem;">
+                Just like the way I learnt to develop Full-stack web
+                applications and mobile application, I am trying to learn how
+                Artificial intelligence works and how I can develop my own AI
+                models. I find it to be quite interesting. AI not only has the potential of shaping the future of technology,
+                but also the potential  of helping solve some of world's biggest problems. 
+                Problems that interest me the most. Problems that I can't simply explain to a computer on how address them
+                through code. I am someone who wants to build things that solve problems and help people. And AI presents an
+                opportunity to do just that.
+              </p>
+              <p class="about-wrapper__info-text">
+                <h3 style="font-weight: bold; border: 1px solid;">Tech Stack</h3>
+                <p style="font-weight: 400; background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,51,121,1) 46%, rgba(0,212,255,1) 91%); padding: 0.1rem; font-size: 1.5rem;">Html, CSS, Javascript, Tailwind CSS, Next.JS, React, Node.js, Express.js, MongoDB, intermediate SQL, Python, Numpy, Pandas, Dart and Flutter </p>
+              </p>
+              <p class="about-wrapper__info-text">
+                <h3 style="font-weight: bold; margin-top: -2rem;">My goals for 2024</h3>
+                <ul style="margin-top: -0.5rem;">
+                  <li style="font-size: 1.5rem" >
+                    Learning how machine learning works from first principle, include all the necessary math.
+                  </li>
+                   <li style="font-size: 1.5rem">
+                    Going to college by the end of the year to go and study a double major 
+                    in electrical engineering and computer science (EECS).
+                  </li>
+                </ul>
+                <h3 style="font-weight: bold; font-size: 1.5rem;">Closing remark</h3>
+                <p>I may not have a computer science degree or know every about software engineering,
+                  but one thing about me is that I am willing to learn and take on new challenges.
+                </p>
+              </p>
+
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="assets/resume.pdf"
+                >
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+           <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Amora Store</h3>
+                <div>
+                  <p class="mb-4" style="font-size: 1.3em;">
+                    I have been working on a full-stack e-commerce web application lately. My younger brother, Melvin,
+                    is deeply interested in entrepreneurship. He aspires to own his own company one day and establish a
+                     venture capital platform similar to Y Combinator, but with a specific focus on providing not only 
+                     capital but also mentorship and additional opportunities to African entrepreneurs, startups, and innovators.
+                  Several months ago, Melvin approached me to build an e-commerce web app for him before he graduated from high school. 
+                  Despite being occupied with work, I agreed to take on the project. Unfortunately, around that time, I was selected into the 
+                  Education USA Scholars program by the USA Embassy. This commitment required me to begin preparing for the SAT exams, leaving me
+                 with only seven weeks to get ready. After writing the exams in late August, 
+                I shifted my focus to applying to colleges, a process that lasted until early January this year. During this period, 
+                I had little to no time to work on the e-commerce app.
+
+                However, after completing my college applications, I finally began working on the e-commerce web app. I've been building 
+                it using Next.js 14, MongoDB, Express.js, and Node.js. I was unfamiliar with Next.js when I began building this web application. 
+                However, I decided to learn it as I progressed with the project. What better way to gain familiarity than through 
+                hands-on experience? This hands-on approach seemed like an effective way to learn. 
+                 Originally, I planned to use bare React.js, but given that this was a production-ready application, I needed to consider aspects 
+                 such as server-side rendering for search engine optimization, routing, and image optimization. This is where Next.js truly excelled.
+                For the web app itself, I've developed a separate a Admin Dashboard and implemented authentication and authorization on both
+                 the client and server sides. It's important to note that I am continually making changes and adding more features to enhance the overall functionality.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://a-store-one.vercel.app/"
+                >
+                  See Live Store
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://a-store-admin-dashboard.vercel.app/"
+                >
+                  See Live Admin Dashboard
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/prince-musonda/store"
+                >
+                  ecommerce Source Code
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/prince-musonda/a-store-admin-dashboard"
+                >
+                  Admin Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/ecommerce.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+         
+          
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Netflicks</h3>
+                <div>
+                  <p class="mb-4">
+                    A Netflix inspired projects that I built sometime time ago in React js.
+                    I never got to finish this project but I can say it is at least 99% done. The nextflicks
+                    project allows you to explore and discover, search, read, watch and download all sorts of movies(trailors), especially the most recent and popular
+                    ones at any given moment in time. 
+
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://netflicks.onrender.com"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/prince-musonda/netflicks"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/netflicks.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Smart Brain Face Detectcor</h3>
+                <div>
+                  <p class="mb-4">
+                    A React Js project that can recognize faces in any picture.
+                    I built this also sometime ago when I also learning about APIs for the first time,
+                    whilst taking the Complete Web developer course from ZeroToMastery.
+
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://smart-brain-udmj.onrender.com/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/prince-musonda/smartBrain"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/smartbrain.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Etch-a-Sketch</h3>
+                <div>
+                  <p class="mb-4">
+                    A simple Program that is close to my heart. The web vision of Etch-a-Sketch mechanical drawing device. Built this one 
+                    in my early days of programming when i was taking the full stack web developer
+                    curriculum on the Odin Project. After learning some basic Javascript on the Odin Project, I was
+                    tasked to create a digital vision of Etch-a-Sketch. I remember how confused and scared I felt
+                    because I couldn't see anyway I could apply the little Javascript knowledge I had learned to
+                    create this. But that's what programming is all about. It is about solving problems and figuring feelings
+                    about. oh boy! I stil remember the sense of satisfaction when I finally managed to do it.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://prince-musonda.github.io/etch-a-sketch/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/prince-musonda/etch-a-sketch"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/etch-a-sketch.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper load-hidden">
+          <p class="contact-wrapper__text">
+            <div style="font-size: 2rem; display: flex; flex-direction: column; align-items: center; overflow-y: auto;">
+              <span style="border-bottom: 1px solid; margin-bottom: 0.5rem; max-width: max-content;">princemusonda5840@gmail.com</span>
+              <span>phone:  +260770917306</span>
+            </div>
+            
+            </p>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:princemusonda5840@gmail.com"
+            >Call to Action</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a rel="noreferrer" href="#!" target="_blank">
+            <i class="fa fa-twitter fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="#!" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="#!" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
+        <p class="footer__text">
+          © 2021 - Template developed by
+          <a rel="noreferrer" href="https://github.com/cobidev" target="_blank"
+            >Jacobo Martínez</a
+          >
+        </p>
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+
+    <script defer type="module" src="index.js"></script>
+  </body>
+</html>
